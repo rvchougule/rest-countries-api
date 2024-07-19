@@ -152,7 +152,10 @@ a {
 
 @media (max-width: 768px) {
   .countries-container {
-    justify-content: center;
+    justify-items: center;
+  }
+  .country-card {
+    margin-inline: auto;
   }
 
   .title {
